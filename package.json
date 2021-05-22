@@ -1,0 +1,17 @@
+{
+  "name": "startup-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "startup-proxy.js",
+  "bin": "src/startup-proxy.js",
+  "scripts": {
+    "pkg": "pkg --targets node12-win-x64 . --output=pkg-builds/startup-proxy.exe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loglevel": "^1.7.1",
+    "minimist": "^1.2.5",
+    "pkg": "^5.1.0"
+  }
+}

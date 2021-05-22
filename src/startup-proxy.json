@@ -1,0 +1,10 @@
+{
+    "main-executable": "PotPlayerMini64.exe",
+    "enable-logging": true,
+    "rules": [
+        {
+            "rx": "--play-and-exit",
+            "action": "remove-arg"
+        }
+    ]
+}
